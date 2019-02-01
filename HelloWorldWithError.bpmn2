@@ -10,7 +10,7 @@
   <bpmn2:itemDefinition id="__C81D5152-6900-4402-B080-106219214464_SkippableInputXItem" structureRef="Object" />
   <bpmn2:itemDefinition id="__C81D5152-6900-4402-B080-106219214464_outAddressOutputXItem" structureRef="String" />
   <bpmn2:itemDefinition id="__C81D5152-6900-4402-B080-106219214464_outCityOutputXItem" structureRef="String" />
-  <bpmn2:process id="src.main.resources.HelloWorldWithError" drools:packageName="com.myspace.demoprocesses" drools:version="1.0" name="HelloWorldWithError" isExecutable="true">
+  <bpmn2:process id="src.main.resources.HelloWorldWithError" drools:version="1.0" name="HelloWorldWithError" isExecutable="true">
     <bpmn2:property id="firstname" itemSubjectRef="_firstnameItem" />
     <bpmn2:property id="lastname" itemSubjectRef="_lastnameItem" />
     <bpmn2:property id="address" itemSubjectRef="_addressItem" />
